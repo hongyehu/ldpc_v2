@@ -46,6 +46,7 @@ class BpOsdDecoder(BpDecoderBase):
     """
 
 
+    def osd_decode(self, syndrome: np.ndarray, log_prob_ratios: np.ndarray) -> np.ndarray:
     def decode(self, syndrome: np.ndarray) -> np.ndarray:
         """
         Decodes the input syndrome using the belief propagation and OSD decoding methods.

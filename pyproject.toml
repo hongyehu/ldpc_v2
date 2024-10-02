@@ -3,7 +3,7 @@ requires = ["cython>=3.0.2","setuptools>=68.2.2","numpy>=1.24.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "ldpc"
+name = "ldpc_beta"
 
 description = "LDPC: Python Tools for Low Density Parity Check Codes"
 readme = "README.md"
